@@ -14,7 +14,7 @@ import dotenv from 'dotenv'
 //BETA: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumber = [''] //Example: +923092668108
+global.botNumber = ['+923119549728'] //Example: +923092668108
 global.confirmCode = "" 
 
 
@@ -159,7 +159,7 @@ global.eror = '```404 error```'
 
 dotenv.config()
 
-const ownervb = process.env.OWNER_NUMBER || ""; // Environment variable se OWNER_NUMBER lete hain
+const ownervb = process.env.OWNER_NUMBER || "923119549728"; // Environment variable se OWNER_NUMBER lete hain
 const ownerlist = ownervb.split(',');
 global.owner = [["201501157597", "DEVELOPER🌹", true]];
 for (let i = 0; i < ownerlist.length; i += 2) {
